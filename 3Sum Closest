@@ -20,7 +20,7 @@ class Solution {
                 } else if (currentSum > target) {
                     right--;
                 } else {
-                    // exact match found
+                     
                     return currentSum;
                 }
             }
